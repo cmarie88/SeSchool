@@ -1,0 +1,61 @@
+﻿body {
+    background: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#blurbs {
+    color: white;
+}
+
+img {
+    border-radius: 10px
+}
+#mainNavbar .navbar-brand {
+    color: white;
+      text-shadow: 1px 1px 2px gray;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #9b111a;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+#headingGroup span {
+    color: #9b111a;
+}
+h2 {
+    color: #9b111a;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.content {
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+/*img {
+    width: 100%;
+    height: 50%;
+}*/
+
+@media (max-width: 600px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
